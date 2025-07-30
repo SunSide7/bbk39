@@ -1,0 +1,51 @@
+.header.page-header {
+    padding: 0;
+}
+
+.plate_size img {
+    min-height: 130px;
+    min-width: 110px;
+}
+
+.facet-img {
+    width: 50%;
+}
+
+.technical b {
+    display: flex;
+    width: 90px;
+    /* border: 1px solid; */
+    white-space: nowrap;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+a[data-toggle="modal"] {
+    cursor: pointer;
+}
+
+main section.catalog.section_top {
+    margin-bottom: 0;
+}
+
+@media(max-width: 768px)
+{
+    .plate_size img {
+        min-height: 70px;
+        min-width: 70px;
+    }
+
+    .calculate_right .btn_blue {
+        display: flex;
+        width: 100%;
+        max-width: initial !important;
+    }
+
+    .product_card .settings_block ul {
+        padding: 0;
+    }
+
+    .catalog {
+        margin-bottom: 0 !important;
+    }
+}

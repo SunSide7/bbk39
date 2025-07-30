@@ -1,0 +1,29 @@
+div.bx-auth input.bx-auth-input {vertical-align:middle;}
+div.bx-auth span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth div.bx-auth-secure-icon {background-image:url(images/sec.png); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth div.bx-auth-secure-unlock {background-image:url(images/sec-unlocked.png);}
+
+
+#change-password-form {}
+
+#change-password-form .form-row {}
+#change-password-form .form-row > span {}
+
+#change-password-form .form-row p {}
+#change-password-form .form-row p > span {}
+
+#change-password-form .change-pass-title {}
+
+#change-password-form .form-middle-part {}
+#change-password-form .form-middle-part {}
+
+#change-password-form {}
+#change-password-form {}
+#change-password-form {}
+#change-password-form {}
+#change-password-form {}
+#change-password-form {}
+#change-password-form {}
+#change-password-form {}
+#change-password-form {}
+

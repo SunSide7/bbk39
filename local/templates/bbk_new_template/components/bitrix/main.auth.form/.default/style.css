@@ -1,0 +1,40 @@
+.auth-form {
+
+}
+.auth-form *:not(.btn_blue) {
+    color: #222222;
+}
+
+h3.bx-title {
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.bx-filter-param-label input[name="USER_REMEMBER"] {
+    margin-top: -1px;
+}
+
+.bx-authform-label-container {
+    color: #999999;
+    font-family: "Segoe UI";
+}
+
+.policy {
+    margin-top: 15px;
+    text-align: center;
+    /*width: 290px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.policy a {
+    color: #1d3a85 !important;
+}
+
+.req-red {
+    color: #df5252 !important;
+}
+
+a.forgot-pass {
+    color: #1d3a85 !important;
+}

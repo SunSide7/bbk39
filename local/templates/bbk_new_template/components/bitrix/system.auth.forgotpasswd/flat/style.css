@@ -1,0 +1,23 @@
+h3.bx-title {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.label,
+.label * {
+    color: #222222;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 0;
+    padding-bottom: 6px;
+}
+
+input[type=text] {
+    padding: 12px;
+    height: 42px;
+    font-size: 18px;
+}
+
+.req-red {
+    color: #df5252;
+}

@@ -1,0 +1,153 @@
+
+#feedbackModal {}
+#feedbackModal .mf-name,
+#feedbackModal .mf-email,
+#feedbackModal .mf-phone,
+#feedbackModal .mf-message {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#feedbackModal .mf-name .bx-authform-label-container,
+#feedbackModal .mf-email .bx-authform-label-container,
+#feedbackModal .mf-phone .bx-authform-label-container,
+#feedbackModal .mf-message .bx-authform-label-container {
+    padding-bottom: 2px;
+}
+
+#feedbackModal .mf-name input,
+#feedbackModal .mf-email input,
+#feedbackModal .mf-phone input,
+#feedbackModal .mf-message textarea{
+    border: 1px solid blue;
+    width: 100%;
+
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    height: 38px;
+    margin: 0;
+    padding: 0 4px;
+    border: 1px solid #ccd5db;
+    border-radius: 2px;
+    background: #f8fafc;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 12px;
+    height: 42px;
+}
+
+#feedbackModal .mf-message textarea{
+    height: auto;
+}
+
+#feedbackModal input[type="submit"] {
+    /*width: 201px;*/
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: #003064;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+#feedbackModal .close {
+    position: absolute;
+    right: 12px;
+    top: 0;
+    bottom: 0;
+}
+
+.modal-body {
+    padding: 40px 38px;
+}
+#feedbackModal .bx-authform-link-container {
+    margin: 0;
+}
+#feedbackModal .bx-authform-link-container .btn_blue,
+#feedbackModal .bx-authform-formgroup-container .btn_blue {
+    width: 100%;
+}
+
+h2.bx-title {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.modal-body .bx-authform-input-container input {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 12px;
+    height: 42px;
+}
+
+.modal-body .btn_blue.btn_blue_lighten {
+    background: #e8ebf2;
+    color: #003064;
+}
+
+.bx-filter-param-label {
+    display: flex;
+    padding: 0 !important;
+}
+.bx-filter-param-label .bx-filter-param-text {
+    color: #888888;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* custom checkbox */
+.bx-filter-param-label input[type="checkbox"] {
+    height: 18px;
+    width: 18px;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    appearance: none;
+    border: 1px solid #ccd5db;
+    border-radius: 3px;
+    background: #fff;
+    position: relative;
+    margin-right: 10px;
+}
+
+.bx-filter-param-label input[type="checkbox"]:checked {
+    border: 2px solid #3f51b5;
+    background: #3f51b5;
+}
+
+.bx-filter-param-label input[type="checkbox"]:checked:before, input[type="checkbox"]:checked:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #fff;
+}
+
+input[type="checkbox"]:checked:before {
+    width: 8px;
+    top: calc(11px - 2px);
+    left: calc(2px - 2px);
+    transform: rotate(44deg);
+}
+
+input[type="checkbox"]:checked:after {
+    width: 14px;
+    top: calc(8px - 2px);
+    left: calc(5px - 2px);
+    transform: rotate(-55deg);
+}
+
+input[type="checkbox"]:focus {
+    outline: none;
+}
